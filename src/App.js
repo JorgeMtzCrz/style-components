@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Button, Card } from './styles'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <Button>Comprar</Button>
+      <Button type="danger">Comprar</Button>
+      <Button type="warning">
+        <a href="http://www.google.com">Google</a>
+      </Button> */}
+      <Card>
+        <h2>React</h2>
+        <br />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ullam eaque, dolor iste architecto alias deleniti
+          voluptates labore provident doloremque unde beatae fugiat excepturi iusto similique cumque, ab rerum! Fugit.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </Card>
+      <Card>
+        <h2>React</h2>
+        <br />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ullam eaque, dolor iste architecto alias deleniti
+          voluptates labore provident doloremque unde beatae fugiat excepturi iusto similique cumque, ab rerum! Fugit.
+        </p>
+      </Card>
+      <Card>
+        <h2>React</h2>
+        <br />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ullam eaque, dolor iste architecto alias deleniti
+          voluptates labore provident doloremque unde beatae fugiat excepturi iusto similique cumque, ab rerum! Fugit.
+        </p>
+      </Card>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
